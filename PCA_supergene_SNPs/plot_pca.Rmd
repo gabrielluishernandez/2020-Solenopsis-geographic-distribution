@@ -24,8 +24,8 @@ for (lib in libraries) {
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 updated_tab <- read.csv("input/outgroup_edited.csv", header = TRUE, fill = TRUE)
 
-Xlabs <- paste("PC2 ", PCA2, "%", sep = "")
-Ylabs <- paste("PC1 ", PCA1, "%", sep = "")
+Xlabs <- paste("PC1 ", PCA1, "%", sep = "")
+Ylabs <- paste("PC2 ", PCA2, "%", sep = "")
 ```
 
 # pca plot
